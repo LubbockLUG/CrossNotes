@@ -1,0 +1,15 @@
+-- Set Variables
+global sStorageLocationPath
+
+on openCard
+   put "" into field notebookNameFld
+   put "" into field savePathField
+end openCard
+
+######## Get the Storage Path from User ########
+on getStorageFolderPath
+   
+   
+   ## store the path in the Database in the table tblUserSettings
+   
+end getStorageFolderPath

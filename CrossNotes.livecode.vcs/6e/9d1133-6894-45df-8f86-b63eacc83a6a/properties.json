@@ -1,0 +1,96 @@
+{
+  "UUID": "6e9d1133-6894-45df-8f86-b63eacc83a6a",
+  "class": "com.runrev.engine.stack",
+  "customPropertySets": {
+    "cREVGeneral": {
+      "breakpointconditions": "",
+      "breakpoints": "",
+      "breakpointstates": "",
+      "scalefactor": "1"
+    },
+    "cREVGeneral[breakpointconditions]": {
+      "breakpointconditions": ""
+    },
+    "cREVGeneral[breakpoints]": {
+      "breakpoints": ""
+    },
+    "cREVGeneral[breakpointstates]": {
+      "breakpointstates": ""
+    },
+    "cREVGeneral[scripteditorselection]": {
+      "scripteditorselection": "2467"
+    },
+    "cREVGeneral[scripteditorvscroll]": {
+      "scripteditorvscroll": "1500"
+    },
+    "cREVGeometryCache": {
+      "stackID": "1054"
+    }
+  },
+  "properties": {
+    "altId": "0",
+    "alwaysBuffer": "false",
+    "backColor": "38,209,230",
+    "backPattern": "",
+    "behavior": "",
+    "blendLevel": "0",
+    "borderColor": "",
+    "borderPattern": "",
+    "bottomColor": "",
+    "bottomPattern": "",
+    "cantAbort": "false",
+    "cantDelete": "false",
+    "cantModify": "false",
+    "decorations": "title,menu,minimize,maximize,close",
+    "destroyStack": "false",
+    "destroyWindow": "false",
+    "dynamicPaths": "false",
+    "editMenus": "false",
+    "externals": "",
+    "focusColor": "",
+    "focusPattern": "",
+    "foreColor": "",
+    "forePattern": "",
+    "formatForPrinting": "false",
+    "fullscreen": "false",
+    "fullscreenmode": "",
+    "hcAddressing": "false",
+    "height": "598",
+    "hiliteColor": "",
+    "hilitePattern": "",
+    "icon": "0",
+    "iconic": "false",
+    "linkColor": "",
+    "linkHiliteColor": "",
+    "linkVisitedColor": "",
+    "liveResizing": "true",
+    "maxHeight": "65535",
+    "maxWidth": "65535",
+    "menubar": "",
+    "metal": "false",
+    "minHeight": "32",
+    "minWidth": "32",
+    "name": "MainNotes",
+    "resizable": "true",
+    "scalefactor": "1",
+    "shadow": "true",
+    "shadowColor": "",
+    "shadowOffset": "4",
+    "shadowPattern": "",
+    "stackFiles": "",
+    "startUpIconic": "false",
+    "style": "toplevel",
+    "systemWindow": "false",
+    "textFont": "",
+    "textSize": "",
+    "textStyle": "",
+    "title": "Cross Notes",
+    "topColor": "",
+    "topPattern": "",
+    "underlineLinks": "",
+    "visible": "true",
+    "width": "815",
+    "windowManagerPlace": "false",
+    "windowShape": "0"
+  }
+}

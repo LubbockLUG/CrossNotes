@@ -1,0 +1,12 @@
+on mouseUp
+   if notebookNameFld is NOT "" or savePathField is NOT "" Then
+      answer question "You have unsaved changes, are you sure you want to cancel?" with "Yes" or "No"
+      If it is "Yes" Then
+         ; answer "you clicked " & it
+         put 0 into tDatabaseAccessible
+         close this stack
+      End If
+   Else
+      close this stack
+   End If
+end mouseUp

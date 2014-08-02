@@ -1,0 +1,63 @@
+{
+  "UUID": "195978dd-de86-424b-bb28-c441727249d5",
+  "class": "com.runrev.engine.card",
+  "customPropertySets": {
+    "cREVGeneral": {
+      "scripteditorselection": "45",
+      "scripteditorvscroll": "0"
+    },
+    "cREVGeneral[scripteditorselection]": {
+      "scripteditorselection": "0"
+    },
+    "cREVGeneral[scripteditorvscroll]": {
+      "scripteditorvscroll": "0"
+    },
+    "cREVGeometryCacheIDs": {
+      "1406386802610": "1004",
+      "1406386824270": "1006",
+      "1406386973820": "1007",
+      "1406387174745": "1009",
+      "1406387176549": "1010",
+      "1406387281700": "1012",
+      "1406387283454": "1013"
+    },
+    "cREVGeometrycache": {
+      "order": "\n",
+      "total": "7"
+    }
+  },
+  "properties": {
+    "altId": "0",
+    "backColor": "",
+    "backPattern": "",
+    "behavior": "",
+    "blendLevel": "0",
+    "borderColor": "",
+    "borderPattern": "",
+    "borderWidth": "2",
+    "bottomColor": "",
+    "bottomPattern": "",
+    "cantDelete": "false",
+    "dontSearch": "false",
+    "focusColor": "",
+    "focusPattern": "",
+    "foreColor": "",
+    "forePattern": "",
+    "hiliteColor": "",
+    "hilitePattern": "",
+    "id": "1002",
+    "ink": "srcCopy",
+    "mark": "false",
+    "name": "saveLocationPopup",
+    "shadowColor": "",
+    "shadowOffset": "4",
+    "shadowPattern": "",
+    "showBorder": "false",
+    "textFont": "",
+    "textSize": "",
+    "textStyle": "",
+    "threeD": "true",
+    "topColor": "",
+    "topPattern": ""
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "UUID": "6487259c-fe5d-46da-8d68-9a4978f68013",
+  "class": "com.runrev.engine.card",
+  "customPropertySets": {
+    "cREVGeneral": {
+      "scripteditorselection": "932",
+      "scripteditorvscroll": "237"
+    },
+    "cREVGeneral[scripteditorselection]": {
+      "scripteditorselection": "296"
+    },
+    "cREVGeneral[scripteditorvscroll]": {
+      "scripteditorvscroll": "468"
+    },
+    "cREVGeometryCacheIDs": {
+      "1406392347516": "1010",
+      "1406393324393": "1012",
+      "1406393462648": "1016",
+      "1406393462649": "1017",
+      "1406393462738": "1015",
+      "1406393489770": "1039",
+      "1406393731695": "1041",
+      "1406471707494": "1018",
+      "1406471707495": "1019",
+      "1406471707496": "1020",
+      "1406471707497": "1021",
+      "1406471707498": "1022",
+      "1406471707499": "1023",
+      "1406471707500": "1024",
+      "1406471707501": "1025",
+      "1406471707502": "1026",
+      "1406471707503": "1027",
+      "1406471707504": "1028",
+      "1406471707505": "1029",
+      "1406471707506": "1030",
+      "1406471707507": "1031",
+      "1406471707508": "1032",
+      "1406471707509": "1033",
+      "1406471707510": "1034",
+      "1406471707511": "1035",
+      "1406471707512": "1036",
+      "1406471707513": "1037",
+      "1406492915472": "1050",
+      "1406825048460": "1049",
+      "1406832258531": "1043",
+      "1406832258532": "1044",
+      "1406832258533": "1045",
+      "1406832258534": "1046",
+      "1406832258535": "1047",
+      "1406832258536": "1048"
+    },
+    "cREVGeometrycache": {
+      "order": "\n",
+      "total": "35"
+    }
+  },
+  "properties": {
+    "altId": "0",
+    "backColor": "210,244,249",
+    "backPattern": "",
+    "behavior": "",
+    "blendLevel": "0",
+    "borderColor": "",
+    "borderPattern": "",
+    "borderWidth": "2",
+    "bottomColor": "",
+    "bottomPattern": "",
+    "cantDelete": "false",
+    "dontSearch": "false",
+    "focusColor": "",
+    "focusPattern": "",
+    "foreColor": "",
+    "forePattern": "",
+    "hiliteColor": "",
+    "hilitePattern": "",
+    "id": "1002",
+    "ink": "srcCopy",
+    "mark": "false",
+    "name": "mainNotesEntry",
+    "shadowColor": "",
+    "shadowOffset": "4",
+    "shadowPattern": "",
+    "showBorder": "false",
+    "textFont": "",
+    "textSize": "",
+    "textStyle": "",
+    "threeD": "true",
+    "topColor": "",
+    "topPattern": ""
+  }
+}

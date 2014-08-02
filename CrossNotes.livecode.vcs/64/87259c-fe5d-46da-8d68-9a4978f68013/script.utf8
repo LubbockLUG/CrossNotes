@@ -1,0 +1,45 @@
+## define variables to be used by multiple handlers and functions
+
+local sDatabaseID
+global tDatabaseAccessible
+global sqlPath
+local tDBFile
+local QAnswer
+global CNStorageLocation
+global sStorageLocationPath
+
+command setDatabaseID pDatabaseID
+   put pDatabaseID into sDatabaseID
+end setDatabaseID
+
+function getDatabaseID
+   return sDatabaseID
+end getDatabaseID
+
+############ Start Code for this Card ############
+
+command databaseConnect
+   local tDatabasePath, tDatabaseID
+   put specialFolderPath("documents") & "/CrossNotes" into sqlPath
+   
+   put sqlPath into tDBFile
+   if there is NOT a file tDBFile Then
+      put 0 into tDatabaseAccessible
+      answer question "We could not find any databases at " & tDBFile & ". Do you want to create one?" with "Yes" or "No"
+      put it into QAnswer
+      answer question "it is " & QAnswer
+      
+      If QAnswer is "Yes" Then
+         toplevel stack "SetupSaveSourceMain"
+         # from SetupSaveSourceMain I have to then connect to, or create the Database
+      End If
+   Else
+      put sqlPath & "/crossNotes.sqlite" into tDatabasePath
+         ## Open a connection to the database
+         ## If the database doesn't already exist, create it
+         put revOpenDatabase("sqlite", tDatabasePath,,,,) into tDatabasaeID
+         
+         ## Store the database ID returned from above
+         setDatabaseID tDatabaseID
+      End If
+end databaseConnect

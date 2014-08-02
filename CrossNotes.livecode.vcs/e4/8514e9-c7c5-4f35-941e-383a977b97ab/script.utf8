@@ -1,0 +1,8 @@
+global CNStorageLocation
+
+on mouseUp
+   answer folder"Select the storage location for Cross NOtes."
+   put it into CNStorageLocation
+   
+   put CNStorageLocation into field fullStoragePathfld
+end mouseUp

@@ -1,0 +1,89 @@
+local sDBaseID
+global tDBaseAccessible
+global sqlPathMainDB
+local tDBFileMainDB
+global CNStorageLocation
+global sStorageLocationPath
+
+--on openStack
+--   mainDBConnect
+--end openStack
+
+command setDBaseID pDBaseID
+   put pDBaseID into sDBaseID
+end setDBaseID
+
+function getDBaseID
+   return sDBaseID
+end getDBaseID
+
+#### Determine if the sqlite database exists in the default location ####
+command mainDBConnect
+   put specialFolderPath("documents") & "/CrossNotes" into sqlPathMain
+   
+   put sqlPathMain into tDBaseFile
+   if there is NOT a file tDBaseFile Then
+      put 0 into tBaseAccessible
+      answer question "We could not find a configuration file at " & tDBaseFile & ". Do you want to create it now?" with "Yes" or "No"
+      
+      If it is "Yes" Then
+         createOrOpenDB
+      Else 
+         close this stack
+      End IF
+   Else
+      put 1 into tDBaseAccessible
+      createOrOpenDB
+   End If
+end mainDBConnect
+
+#### Create the Main database or Open it if it exists ####
+command createOrOpenDB
+   local tDBPath, tBaseID
+   put specialFolderPath("documents") & "/CrossNotes" into sqlPathMain
+   
+   put sqlPathMain into tDBaseFile
+   
+   put sqlPathMain & "/crossNotes.sqlite" into tDBasePath
+         ## Open a connection to the database
+         ## If the database doesn't already exist, create it
+         put revOpenDatabase("sqlite", tDBPath,,,,) into tDBaseID
+         
+         ## Store the database ID returned from above
+         setDBaseID tDBaseID
+         
+         If tDBaseAccessible is 0 Then
+            createTblStroage
+            # prompt user to provide a storage location for their Notebooks and other database with Settings
+            topLevel stack "SettingsStack"
+            addMainLocToDB
+         Else
+            accessTblStorage
+         End If
+end createOrOpenDB
+
+
+
+
+
+# create the main storage location database to be kept in the main Cross Notes location
+on createTblStorage
+   # Create the database table and structure to hold the location of the Cross Notes files and notes db
+   put getDBaseID() into tDBaseID
+   put "CREATE TABLE main_store_path (main_path_id INT, main_path char(255))" into tSQL
+   revExecuteSQL tDBaseID, tSQL
+end createTblStorage
+
+# add the user entered storeage location from Settings into the main database
+on addMainLocToDB
+   put getDBaseID() into tDBaseID
+   
+   put "INSRT into main_store_path VALUES (CNStorageLocation);" after tSQL
+   
+   revExecuteSQL tDBaseID, tSQL
+end addMainLocToDB
+
+# access the user entered storage location from Settings through the main database
+on accessTblStorage
+   # open the database, and access the Cross Notes files and db location and store it in storageLocationPath
+end accessTblStorage

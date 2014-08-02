@@ -1,0 +1,98 @@
+{
+  "UUID": "d16e1419-6b7d-4543-a3bf-73f77cffd6c8",
+  "class": "com.runrev.engine.stack",
+  "customPropertySets": {
+    "cREVGeneral": {
+      "breakpointconditions": "",
+      "breakpoints": "",
+      "breakpointstates": "",
+      "scalefactor": "1",
+      "scripteditorselection": "0",
+      "scripteditorvscroll": "0"
+    },
+    "cREVGeneral[breakpointconditions]": {
+      "breakpointconditions": ""
+    },
+    "cREVGeneral[breakpoints]": {
+      "breakpoints": ""
+    },
+    "cREVGeneral[breakpointstates]": {
+      "breakpointstates": ""
+    },
+    "cREVGeneral[scripteditorselection]": {
+      "scripteditorselection": "0"
+    },
+    "cREVGeneral[scripteditorvscroll]": {
+      "scripteditorvscroll": "0"
+    },
+    "cREVGeometryCache": {
+      "stackID": "1013"
+    }
+  },
+  "properties": {
+    "altId": "0",
+    "alwaysBuffer": "false",
+    "backColor": "179,240,247",
+    "backPattern": "",
+    "behavior": "",
+    "blendLevel": "0",
+    "borderColor": "",
+    "borderPattern": "",
+    "bottomColor": "",
+    "bottomPattern": "",
+    "cantAbort": "false",
+    "cantDelete": "false",
+    "cantModify": "false",
+    "decorations": "title,menu,minimize,maximize,close",
+    "destroyStack": "false",
+    "destroyWindow": "false",
+    "dynamicPaths": "false",
+    "editMenus": "false",
+    "externals": "",
+    "focusColor": "",
+    "focusPattern": "",
+    "foreColor": "",
+    "forePattern": "",
+    "formatForPrinting": "false",
+    "fullscreen": "false",
+    "fullscreenmode": "",
+    "hcAddressing": "false",
+    "height": "254",
+    "hiliteColor": "",
+    "hilitePattern": "",
+    "icon": "0",
+    "iconic": "false",
+    "linkColor": "",
+    "linkHiliteColor": "",
+    "linkVisitedColor": "",
+    "liveResizing": "true",
+    "maxHeight": "65535",
+    "maxWidth": "65535",
+    "menubar": "",
+    "metal": "false",
+    "minHeight": "32",
+    "minWidth": "32",
+    "name": "SetupSaveSourceMain",
+    "resizable": "true",
+    "scalefactor": "1",
+    "shadow": "true",
+    "shadowColor": "",
+    "shadowOffset": "4",
+    "shadowPattern": "",
+    "stackFiles": "",
+    "startUpIconic": "false",
+    "style": "toplevel",
+    "systemWindow": "false",
+    "textFont": "",
+    "textSize": "",
+    "textStyle": "",
+    "title": "Notebook Save Location",
+    "topColor": "",
+    "topPattern": "",
+    "underlineLinks": "",
+    "visible": "true",
+    "width": "422",
+    "windowManagerPlace": "false",
+    "windowShape": "0"
+  }
+}

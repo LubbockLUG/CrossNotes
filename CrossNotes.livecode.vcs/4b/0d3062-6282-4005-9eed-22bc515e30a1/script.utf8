@@ -1,0 +1,9 @@
+global sStorageLocationPath
+
+on mouseUp
+   answer folder "Select the Notebook File Storage Location."
+   put it into sStorageLocationPath
+   put sStorageLocationPath into field savePathField
+   
+   getStorageFolderPath
+end mouseUp
