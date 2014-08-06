@@ -3,7 +3,9 @@
   "class": "com.runrev.engine.field",
   "customPropertySets": {
     "cREVGeneral": {
-      "revUniqueID": "1406827518177"
+      "revUniqueID": "1406827518177",
+      "scripteditorselection": "0",
+      "scripteditorvscroll": "0"
     },
     "cREVTable": {
       "currentview": "Cross Notes Storage"

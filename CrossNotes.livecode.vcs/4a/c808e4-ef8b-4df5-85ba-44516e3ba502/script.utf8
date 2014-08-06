@@ -1,0 +1,7 @@
+global CNStorageLocation
+
+on mouseUp
+   put field "fullStoragePathfld" into CNStorageLocation
+   addMainLocToDB
+   close this stack
+end mouseUp
