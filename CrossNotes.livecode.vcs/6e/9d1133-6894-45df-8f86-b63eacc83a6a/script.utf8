@@ -5,7 +5,7 @@ local tDBFileMainDB
 global CNStorageLocation
 global tCNStorageLocation
 global sStorageLocationPath
-global fileExists
+global fileExists, sysPlatform
 
 command setDBaseID pDBaseID
    put pDBaseID into sDBaseID
@@ -18,7 +18,14 @@ end getDBaseID
 #### Determine if the sqlite database exists in the default location ####
 command mainDBConnect
    put 0 into tDBaseAccessible
-   put specialFolderPath("documents") & "/CrossNotes" into sqlPathMain
+   put the Platform into sysPlatform
+   
+   if sysPlatform is "Linux" Then
+      put ("~/Documents/CrossNotes") into sqlPathMain
+   Else
+      put specialFolderPath("documents") & "/CrossNotes" into sqlPathMain
+   End if
+   
    if there is not a folder sqlPathMain then
       create folder sqlPathMain
    end if
