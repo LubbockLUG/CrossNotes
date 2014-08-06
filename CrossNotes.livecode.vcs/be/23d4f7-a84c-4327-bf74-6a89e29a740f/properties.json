@@ -3,6 +3,9 @@
   "class": "com.runrev.engine.stack",
   "customPropertySets": {
     "cREVGeneral": {
+      "breakpointconditions": "",
+      "breakpoints": "",
+      "breakpointstates": "",
       "scalefactor": "1"
     },
     "cREVGeneral[breakpointconditions]": {

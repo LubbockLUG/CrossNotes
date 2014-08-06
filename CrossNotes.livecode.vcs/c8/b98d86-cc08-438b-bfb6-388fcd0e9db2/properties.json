@@ -10,6 +10,9 @@
     },
     "cREVGeneral[scripteditorvscroll]": {
       "scripteditorvscroll": "0"
+    },
+    "cREVTable": {
+      "currentview": ""
     }
   },
   "properties": {
@@ -43,7 +46,7 @@
     "hiliteColor": "",
     "hilitePattern": "",
     "hilitedLines": "",
-    "htmlText": "<p></p>",
+    "htmlText": "<p>/Users/brimcgon/ownCloud/CNotes</p>",
     "id": "1004",
     "ink": "srcCopy",
     "innerGlow": "",

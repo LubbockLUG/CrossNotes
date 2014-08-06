@@ -3,8 +3,10 @@
   "class": "com.runrev.engine.card",
   "customPropertySets": {
     "cREVGeneral": {
-      "scripteditorselection": "932",
-      "scripteditorvscroll": "237"
+      "debugEntryHandler": "M,openCard",
+      "debugParameters": "",
+      "scripteditorselection": "1568",
+      "scripteditorvscroll": "0"
     },
     "cREVGeneral[scripteditorselection]": {
       "scripteditorselection": "296"

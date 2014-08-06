@@ -6,7 +6,9 @@
       "breakpointconditions": "",
       "breakpoints": "",
       "breakpointstates": "",
-      "scalefactor": "1"
+      "scalefactor": "1",
+      "scripteditorselection": "3043",
+      "scripteditorvscroll": "0"
     },
     "cREVGeneral[breakpointconditions]": {
       "breakpointconditions": ""
@@ -18,10 +20,10 @@
       "breakpointstates": ""
     },
     "cREVGeneral[scripteditorselection]": {
-      "scripteditorselection": "2467"
+      "scripteditorselection": "654"
     },
     "cREVGeneral[scripteditorvscroll]": {
-      "scripteditorvscroll": "1500"
+      "scripteditorvscroll": "168"
     },
     "cREVGeometryCache": {
       "stackID": "1054"
